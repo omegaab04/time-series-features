@@ -1,8 +1,6 @@
-# Bytecode
 __pycache__/
 *.py[cod]
 
-# C extensions
 *.so
 *.o
 *.obj
@@ -10,25 +8,19 @@ __pycache__/
 *.dll
 *.dylib
 
-# Build artifacts
 build/
 dist/
 *.egg-info/
 *.egg
 
-# IDE / editor
 .vscode/
 .idea/
 
-# OS-specific
 .DS_Store
 
-# Logs
 *.log
 
-# Jupyter cache (if experimenting)
 .ipynb_checkpoints/
 
-# Virtual environments
 .venv/
 env/
