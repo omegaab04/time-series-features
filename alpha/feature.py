@@ -1,10 +1,10 @@
 import feature
 
 def rolling_mean(series, window):
-    return feature.rolling_mean(series.tolist(), window)
+    return feature.rolling_mean(series, window)
 
 def momentum(series, window):
-    return feature.momentum(series.tolist(), window)
+    return feature.momentum(series, window)
 
 def zscore(series, window):
-    return feature.zscore(series.tolist(), window)
+    return feature.zscore(series, window)
