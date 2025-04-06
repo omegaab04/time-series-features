@@ -4,7 +4,7 @@ import alpha
 import matplotlib.pyplot as plt
 
 # Load historical prices
-data = yf.download("AAPL", start="2022-01-01", end="2023-01-01")
+data = yf.download("AAPL", start="2022-01-01", end="2024-01-01")
 close = data["Close"]
 
 # Compute features
