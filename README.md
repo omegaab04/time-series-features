@@ -45,7 +45,10 @@ roll = alpha.rolling_mean(close, 10)
 mom = alpha.momentum(close, 10)
 z = alpha.zscore(close, 10)
 
-print(roll, mom, z)
+# Last 5 of each (otherwise you'll have a bunch of outputs given our time range here is two full years)
+print("Rolling mean:", roll[-5:])
+print("Momentum:", mom[-5:])
+print("Z-score:", z[-5:])
 
 ```
 Voila!
